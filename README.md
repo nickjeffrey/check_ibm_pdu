@@ -15,6 +15,7 @@ perl, enable SNMP on PDU
 
 # Configuration
 Enable SNMP on the PDU
+
 <img src=images/snmp.png>
 
 Add a section similar to the following to services.cfg on the nagios server
