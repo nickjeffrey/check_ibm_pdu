@@ -1,7 +1,9 @@
 # check_ibm_pdu
 nagios check for IBM / Lenovo intelligent Power Distribution Unit
 
-This check is for IBM / Lenovo Intelligent Power Distribution Units.  If you are not sure if you have the appropriate PDU, the login screen looks similar to:
+This check is for IBM / Lenovo Intelligent Power Distribution Units.  
+Originally designed and manufactured by IBM, these PDU devices are also re-branded by Lenovo.
+If you are not sure if you have the appropriate PDU, the login screen looks similar to:
 
 <img src=images/login.png>
 
