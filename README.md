@@ -12,6 +12,11 @@ The web-based user interface to this PDU will look similar to:
 # Requirements
 perl, enable SNMP on PDU
 
+
+# Configuration
+Enable SNMP on the PDU
+<img src=images/snmp.png>
+
 Add a section similar to the following to services.cfg on the nagios server
 ```
 # Define a service to check the IBM/Lenovo PDU
@@ -35,10 +40,6 @@ define command{
         }
 ```
 
-
-# Configuration
-Enable SNMP on the PDU
-<img src=images/snmp.png>
 
 
 # Output
