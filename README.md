@@ -2,9 +2,11 @@
 nagios check for IBM / Lenovo intelligent Power Distribution Unit
 
 This check is for IBM / Lenovo Intelligent Power Distribution Units.  If you are not sure if you have the appropriate PDU, the login screen looks similar to:
+
 <img src=images/login.png>
 
 The web-based user interface to this PDU will look similar to:
+
 <img src=images/webgui.png>
 
 # Requirements
