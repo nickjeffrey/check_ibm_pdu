@@ -51,6 +51,7 @@ define command{
 # Optional Graphs
 
 This check provides performance data that can be optionally graphed via NagiosGraph, PNP4Nagios, Prometheus, etc to provide historical utilization details.
+
 <img src=images/temperature.png>
 <img src=images/watts.png>
 <img src=images/amps.png>
