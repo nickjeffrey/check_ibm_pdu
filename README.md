@@ -26,7 +26,7 @@ Add a section similar to the following to services.cfg on the nagios server
 # Parameters are SNMP community name
 define service {
         use                             generic-service
-        hostgroup_name                  all_ibmpdu
+        hostgroup_name                  all_ibm_pdu
         service_description             PDU health
         check_command                   check_ibmpdu!public
         }
@@ -35,11 +35,11 @@ define service {
 
 Add a section similar to the following to commands.cfg on the nagios server
 ```
-# 'check_ibmpdu' command definition
+# 'check_ibm_pdu' command definition
 # parameters are -H hostname -C snmp_community
 define command{
         command_name    check_ibmpdu
-        command_line    $USER1$/check_ibmpdu -H $HOSTADDRESS$ -C $ARG1$
+        command_line    $USER1$/check_ibm_pdu -H $HOSTADDRESS$ -C $ARG1$
         }
 ```
 
